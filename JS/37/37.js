@@ -1,0 +1,8 @@
+let id1 = document.getElementById("id1")
+console.log(id1)
+let sp1 = document.getElementById("span1")
+let id2 = document.getElementById("id2")
+console.log(id1.matches(".class"))
+console.log(id2.matches(".box"))
+console.log(sp1.closest("#span1"))
+console.log(id1.contains(sp1))
